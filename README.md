@@ -65,12 +65,12 @@ This database contains information related to customers, markets, products, and 
   - 27 distinct markets.
   - 7 sub-zones and 4 regions: APAC, EU, LATAM, and others (nan).
     
- ![dim_market](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_market.png)
+  <img align="centre" alt="dim_market" src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_market.png"/>  
+ 
 - **dim_product**:
   - Divisions: 
     - P & A (Peripherals & Accessories), PC (Notebook, Desktop), N & S (Networking & Storage).
   - 14 different product categories (e.g., Internal HDD, Keyboard) and multiple variants for each product.
-   <img align="center" src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_product.png"> </a>
    ![dim_product](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_product.png)
 - **fact_forecast_monthly**:
   - Used for forecasting customer needs, leading to higher customer satisfaction and reduced warehousing costs.
@@ -88,17 +88,27 @@ This database contains details related to pricing, manufacturing costs, and dedu
 - **freight_cost**:
   - Contains details of travel costs and other logistics-related costs for each market, broken down by fiscal year.
 
+    ![freight_cost](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/freight_cost.png)
+
 - **gross_price**:
   - Provides gross pricing information for products, based on product codes.
 
+    ![gross_price](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/gross_price.png)
+    
 - **manufacturing_cost**:
   - Contains manufacturing costs associated with each product, linked to the product code and year.
 
+    ![manufacturing_cost](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/manufacturing_cost.png)
+    
 - **pre_invoice_deductions**:
   - Provides details of pre-invoice deduction percentages for each customer by year.
 
+    ![pre_invoice_deductions](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/pre_invoice_deductions.png)
+    
 - **post_invoice_deductions**:
   - Contains post-invoice deduction details and other relevant deductions.
+ 
+    ![post_invoice_deductions](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/post_invoice_deductions.png)
 
 These tables are essential for conducting a thorough analysis, ranging from customer forecasting to understanding the impact of costs and pricing on profitability.
 
@@ -107,14 +117,20 @@ These tables are essential for conducting a thorough analysis, ranging from cust
 - **1. Targets**:
   - Columns: Market, Month, Net Sales Target, Gross Margin Target, Net Profit Target.
   - This file contains the sales and financial performance targets set for each market, including goals for net sales, gross margins, and net profits.
+ 
+    ![targets](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/target.png)
 
 - **2. Market Share**:
   - Columns: Subzone, Category, Financial Year, Total Market Sales, Atliq Sales, Dale Sales, Innovo Sales, Pacer Sales, BP Sales, Other Sales.
   - This file details the market share across various subzones and product categories, broken down by financial year. It includes sales data from Atliq and its competitors (Dale, Innovo, Pacer, BP, and others).
+ 
+    ![marketshare](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/marketshare.png)
 
 - **3. Operating Expenses**:
   - Columns: Market, Fiscal Year, Ads & Promotions (%), Other Operational Expenses (%).
   - This file provides operational expense data, showing the percentage of expenses spent on ads, promotions, and other operational activities for each market and fiscal year.
+ 
+    ![operatingexpense](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/operational_expenses.png)
 
 These CSV files complement the database data by providing granular insights into the targets, competition, and operational costs in each market.
 
