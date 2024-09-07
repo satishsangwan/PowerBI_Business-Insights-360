@@ -23,14 +23,14 @@ AtliQ Hardwares is a consumer electronics company expanding rapidly but is not a
 - [Data Modeling](#data-modeling)
 - [DAX Measures](#dax-measures)
 - [Dashboards](#dashboards)
+  - [Home Page](#home-page-navigation)
   - [Finance Dashboard](#finance-dashboard)
   - [Sales Dashboard](#sales-dashboard)
   - [Marketing Dashboard](#marketing-dashboard)
   - [Supply Chain Dashboard](#supply-chain-dashboard)
   - [Executive Overview Dashboard](#executive-overview-dashboard)
-  - [Home Page](#home-page-navigation)
+  
 - [Technology Stack](#technology-stack)
-- [Media & Visualizations](#media--visualizations)
 - [Conclusion](#conclusion)
 
 ## **Introduction**
@@ -174,6 +174,14 @@ The data was cleaned using Power Query. Key steps included:
 - Filling in missing data.
 - Standardizing data types and formats.
 - Merging multiple tables.
+
+Below are some snippets of power query editor with query steps :
+
+<p align = "center">
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/powerquery/fact_actuals_estimates.png" alt = "fact actuals estimate" width = "800"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/powerquery/dim_date.png" alt = "dim date" width = "800"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/powerquery/dim_customer.png" alt = "dim customer" width = "800"/>
+</p>
 
 ## **Data Modeling**
 The data modeling process involved creating relationships between multiple tables for efficient analysis. Key features:
