@@ -59,24 +59,28 @@ This database contains information related to customers, markets, products, and 
     - Brick & Mortar (Physical/offline stores).
     - E-commerce (Online platforms like Amazon, Flipkart).
   - Three sales channels: Retailer, Direct, and Distributors.
+    ![dim_customer](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_customer.png)
 
 - **dim_market**:
   - 27 distinct markets.
   - 7 sub-zones and 4 regions: APAC, EU, LATAM, and others (nan).
-
+    
+ ![dim_market](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_market.png)
 - **dim_product**:
   - Divisions: 
     - P & A (Peripherals & Accessories), PC (Notebook, Desktop), N & S (Networking & Storage).
   - 14 different product categories (e.g., Internal HDD, Keyboard) and multiple variants for each product.
-
+   <img align="center" src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_product.png"> </a>
+   ![dim_product](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_product.png)
 - **fact_forecast_monthly**:
   - Used for forecasting customer needs, leading to higher customer satisfaction and reduced warehousing costs.
   - The table is denormalized to streamline analytical work.
   - Dates are represented by the start of the month.
   - Contains a forecast quantity column, representing predicted demand for each customer.
-
+   ![fact_forecast](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/fact_forecast.png)
 - **fact_sales_monthly**:
   - Similar to the fact_forecast_monthly table, but the final column represents actual sales (sold quantity) instead of forecasted values.
+    ![fact_sales](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/fact_sales_monthly.png)
 
 ### **gdb056 Database**
 This database contains details related to pricing, manufacturing costs, and deductions. It includes the following key tables:
