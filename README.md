@@ -180,41 +180,52 @@ A wide range of DAX measures were created to generate key business insights, Her
 <p align = "center">
   <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/HomePage.gif" alt = "Home" />
 </p>
+
 ### **Finance Dashboard**
 - Overview of revenue, expenses, and profitability.
 - Key KPIs: Gross Margin, Operating Income, Net Profit.
 
-**Media**:  
-Provide screenshots of the finance dashboard, highlighting KPIs and visuals like line charts and bar graphs.
+<p align = "center">
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Finance_Mockup.png" alt = "Financemockup"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Finance.gif" alt = "Finance" width="800"/>
+</p>
 
 ### **Sales Dashboard**
 - Sales performance by region, product category, and sales channel.
 - KPIs: Total Sales, Year-over-Year Growth, Sales by Channel.
 
-**Media**:  
-Add screenshots of sales dashboard visuals, such as pie charts for regional distribution and line graphs for sales trends.
+<p align = "center">
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Sales_Mockup.png" alt = "salesmockup"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Sales.gif" alt = "sales" width="800"/>
+</p>
+
 
 ### **Marketing Dashboard**
 - Campaign analysis and customer engagement metrics.
 - KPIs: Conversion Rate, Cost per Lead, Return on Marketing Investment (ROMI).
 
-**Media**:  
-Include visuals like funnel charts and bar graphs showcasing campaign performance.
+<p align = "center">
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Marketing%20Mockup.png
+" alt = "marketingmockup"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Marketing.gif" alt = "marketing" width="800"/>
+</p>
 
 ### **Supply Chain Dashboard**
 - Key metrics for supply chain operations: stock levels, delivery times, and order fulfillment.
 - KPIs: Inventory Turnover, Lead Time, Stock-out Rate.
 
-**Media**:  
-Add charts such as stacked columns for stock levels, maps for delivery regions, etc.
+<p align = "center">
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Supply%20Chain%20Mockup.png" alt = "supplychainmockup"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/SupplyChain.gif" alt = "supplychain" width="800"/>
+</p>
 
 ### **Executive Overview Dashboard**
 - High-level insights combining financial, sales, and operational data.
 - KPIs: Total Revenue, Profit Margins, Business Growth, and overall performance.
 
-**Media**:  
-Provide a screenshot of a holistic executive dashboard summarizing key metrics from all functional areas.
-
+<p align = "center">
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Executive.gif" alt = "supplychain" width="800"/>
+</p>
 
 
 ## **Technology Stack**
