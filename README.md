@@ -266,12 +266,6 @@ A wide range of DAX measures were created to generate key business insights, Her
 - **Power BI Service**: For sharing the report with stakeholders
 - **Project Charter File**
 - **Excel**
-## **Media & Visualizations**
-Including visuals is crucial for engaging visitors and showcasing your work. Suggested media:
-- **Screenshots**: Include clear, high-quality images of each dashboard and process step.
-- **Animated GIFs**: For showcasing the interactive nature of the dashboards (e.g., filter interactions).
-- **Video**: Consider adding a short video demo walking through the dashboards and functionality.
-- **Power BI Report Link**: If possible, provide a live link to your Power BI report hosted on a platform like Power BI service.
 
 ## **Conclusion**
 This project demonstrates an in-depth approach to data analysis, covering multiple functional domains within the FMCG sector. By utilizing Power BI's powerful data visualization and modeling capabilities, the project provides actionable insights to improve decision-making in finance, sales, marketing, and supply chain.
