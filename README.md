@@ -162,11 +162,20 @@ A wide range of DAX measures were created to generate key business insights:
 - **Supply Chain**: Inventory turnover, delivery time analysis.
 Here are some snippets of DAX Measures:
 <p align="center">
-  <img src="image1_url" alt="Image 1" width="400"/>
-  <img src="image2_url" alt="Image 2" width="400"/>
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Forecast%20QTY.png" alt="forecast" width="400"/>
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/P%20%26%20L%20Final%20Value.png" alt="P & L Final Value" width="400"/>
 </p>
-**Media**:  
-Include snippets of key DAX code along with a brief explanation of their purpose.
+<p align="center">
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/P%20%26%20L%20BM.png" alt="P & L BM" width="400"/>
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/P%20%26%20L%20Chg%20%25.png" alt="P & L chg %" width="400"/>
+</p>
+<p align="center">
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Net%20Error%20LY.png" alt="Net Error LY" width="400"/>
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Reference%20Label.png" alt="Reference Label" width="400"/>
+</p>
+<p align = "center">
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/P%20%26%20L%20Values.png" alt = "P & L Values" width = "600"/>
+</p>
 
 ## **Dashboards**
 
