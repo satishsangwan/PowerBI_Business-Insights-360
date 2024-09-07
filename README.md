@@ -36,7 +36,7 @@ AtliQ Hardwares is a consumer electronics company expanding rapidly but is not a
 ## **Introduction**
 In this project, I analyzed comprehensive datasets from the FMCG domain, covering multiple functional areas such as finance, sales, marketing, supply chain, and executive operations. The project includes individual dashboards for each function, along with a home page for easy navigation.
 
-The project showcases end-to-end data analysis using Power BI, starting from importing data from SQL databases and CSV files, cleaning and transforming it in Power Query, performing data modeling, and finally creating insightful visualizations.
+The project showcases end-to-end data analysis using Power BI, starting from importing data from SQL databases and CSV files, cleaning and transforming it in Power Query, performing data modeling, and finally creating insightful visualizations. Explore the interactive Power BI dashboard live by clicking [here](https://app.powerbi.com/view?r=eyJrIjoiOWE5M2UwYzItOWM3MC00NDQxLWEzMDUtZjgxYTkwMzgyMzJlIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9) to gain insights from the data visualizations.
 
 ## **Project Overview**
 This project follows a systematic approach:
@@ -59,56 +59,83 @@ This database contains information related to customers, markets, products, and 
     - Brick & Mortar (Physical/offline stores).
     - E-commerce (Online platforms like Amazon, Flipkart).
   - Three sales channels: Retailer, Direct, and Distributors.
-    ![dim_customer](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_customer.png)
+ 
+  <p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_customer.png" alt="dim_customer"/>  
+  </p>
+    
 
 - **dim_market**:
   - 27 distinct markets.
-  - 7 sub-zones and 4 regions: APAC, EU, LATAM, and others (nan).
+  - 7 sub-zones and 4 regions: APAC, EU, LATAM, and NA.
     
-  <img align="centre" alt="dim_market" src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_market.png"/>  
- 
+  <p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_market.png" alt="dim_market"/>  
+  </p>
+  
 - **dim_product**:
   - Divisions: 
     - P & A (Peripherals & Accessories), PC (Notebook, Desktop), N & S (Networking & Storage).
   - 14 different product categories (e.g., Internal HDD, Keyboard) and multiple variants for each product.
-   ![dim_product](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_product.png)
+
+  <p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dim_product.png" alt="dim_product"/>  
+  </p>
+  
 - **fact_forecast_monthly**:
   - Used for forecasting customer needs, leading to higher customer satisfaction and reduced warehousing costs.
   - The table is denormalized to streamline analytical work.
   - Dates are represented by the start of the month.
   - Contains a forecast quantity column, representing predicted demand for each customer.
-   ![fact_forecast](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/fact_forecast.png)
+
+  <p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/fact_forecast.png" alt="fact_forecast"/>  
+  </p>
+  
 - **fact_sales_monthly**:
   - Similar to the fact_forecast_monthly table, but the final column represents actual sales (sold quantity) instead of forecasted values.
-    ![fact_sales](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/fact_sales_monthly.png)
 
+  <p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/fact_sales_monthly.png"alt="fact_sales_monthly"/>  
+  </p>
+    
 ### **gdb056 Database**
 This database contains details related to pricing, manufacturing costs, and deductions. It includes the following key tables:
 
 - **freight_cost**:
   - Contains details of travel costs and other logistics-related costs for each market, broken down by fiscal year.
-
-    ![freight_cost](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/freight_cost.png)
-
+    
+<p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/freight_cost.png"alt="freight_cost"/> 
+</p>
+    
 - **gross_price**:
   - Provides gross pricing information for products, based on product codes.
 
-    ![gross_price](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/gross_price.png)
-    
+<p align="center"> 
+  <img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/gross_price.png"alt="gross_price"/> 
+</p>
+      
 - **manufacturing_cost**:
   - Contains manufacturing costs associated with each product, linked to the product code and year.
 
-    ![manufacturing_cost](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/manufacturing_cost.png)
-    
+<p align="center"> 
+<img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/manufacturing_cost.png"alt="manufacturing_cost"/> 
+</p>
+   
 - **pre_invoice_deductions**:
   - Provides details of pre-invoice deduction percentages for each customer by year.
 
-    ![pre_invoice_deductions](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/pre_invoice_deductions.png)
-    
+<p align="center"> 
+<img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/pre_invoice_deductions.png" alt="pre_invoice_deductions"/> 
+</p>
+      
 - **post_invoice_deductions**:
   - Contains post-invoice deduction details and other relevant deductions.
- 
-    ![post_invoice_deductions](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/post_invoice_deductions.png)
+
+<p align="center"> 
+<img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/post_invoice_deductions.png" alt="post_invoice_deductions"/> 
+</p>
 
 These tables are essential for conducting a thorough analysis, ranging from customer forecasting to understanding the impact of costs and pricing on profitability.
 
@@ -117,20 +144,27 @@ These tables are essential for conducting a thorough analysis, ranging from cust
 - **1. Targets**:
   - Columns: Market, Month, Net Sales Target, Gross Margin Target, Net Profit Target.
   - This file contains the sales and financial performance targets set for each market, including goals for net sales, gross margins, and net profits.
- 
-    ![targets](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/target.png)
+
+<p align="center"> 
+<img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/target.png" alt="targets"/> 
+</p>
+   
 
 - **2. Market Share**:
   - Columns: Subzone, Category, Financial Year, Total Market Sales, Atliq Sales, Dale Sales, Innovo Sales, Pacer Sales, BP Sales, Other Sales.
   - This file details the market share across various subzones and product categories, broken down by financial year. It includes sales data from Atliq and its competitors (Dale, Innovo, Pacer, BP, and others).
- 
-    ![marketshare](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/marketshare.png)
+
+<p align="center"> 
+<img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/marketshare.png" alt="market_share"/> 
+</p>    
 
 - **3. Operating Expenses**:
   - Columns: Market, Fiscal Year, Ads & Promotions (%), Other Operational Expenses (%).
   - This file provides operational expense data, showing the percentage of expenses spent on ads, promotions, and other operational activities for each market and fiscal year.
- 
-    ![operatingexpense](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/operational_expenses.png)
+
+<p align="center"> 
+<img src= "https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/operational_expenses.png" alt="operating expenses"/> 
+</p>   
 
 These CSV files complement the database data by providing granular insights into the targets, competition, and operational costs in each market.
 
@@ -140,11 +174,6 @@ The data was cleaned using Power Query. Key steps included:
 - Filling in missing data.
 - Standardizing data types and formats.
 - Merging multiple tables.
-
-**Media**:  
-Include screenshots of:
-- Power Query transformation steps.
-- Before and after cleaning process comparison.
 
 ## **Data Modeling**
 The data modeling process involved creating relationships between multiple tables for efficient analysis. Key features:
@@ -186,8 +215,8 @@ A wide range of DAX measures were created to generate key business insights, Her
 - Key KPIs: Gross Margin, Operating Income, Net Profit.
 
 <p align = "center">
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Finance_Mockup.png" alt = "Financemockup"/>
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Finance.gif" alt = "Finance" width="800"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Finance_Mockup.png" alt = "Financemockup" width="650"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Finance.gif" alt = "Finance" width="650"/>
 </p>
 
 ### **Sales Dashboard**
@@ -195,8 +224,8 @@ A wide range of DAX measures were created to generate key business insights, Her
 - KPIs: Total Sales, Year-over-Year Growth, Sales by Channel.
 
 <p align = "center">
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Sales_Mockup.png" alt = "salesmockup"/>
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Sales.gif" alt = "sales" width="800"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Sales_Mockup.png" alt = "salesmockup" width="650"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Sales.gif" alt = "sales" width="650"/>
 </p>
 
 
@@ -206,8 +235,8 @@ A wide range of DAX measures were created to generate key business insights, Her
 
 <p align = "center">
 <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Marketing%20Mockup.png
-" alt = "marketingmockup"/>
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Marketing.gif" alt = "marketing" width="800"/>
+" alt = "marketingmockup" width="650"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Marketing.gif" alt = "marketing" width="650"/>
 </p>
 
 ### **Supply Chain Dashboard**
@@ -215,8 +244,8 @@ A wide range of DAX measures were created to generate key business insights, Her
 - KPIs: Inventory Turnover, Lead Time, Stock-out Rate.
 
 <p align = "center">
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Supply%20Chain%20Mockup.png" alt = "supplychainmockup"/>
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/SupplyChain.gif" alt = "supplychain" width="800"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Supply%20Chain%20Mockup.png" alt = "supplychainmockup" width="650"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/SupplyChain.gif" alt = "supplychain" width="650"/>
 </p>
 
 ### **Executive Overview Dashboard**
@@ -224,7 +253,7 @@ A wide range of DAX measures were created to generate key business insights, Her
 - KPIs: Total Revenue, Profit Margins, Business Growth, and overall performance.
 
 <p align = "center">
-<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Executive.gif" alt = "supplychain" width="800"/>
+<img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/Executive.gif" alt = "supplychain" width="650"/>
 </p>
 
 
