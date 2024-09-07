@@ -178,7 +178,7 @@ A wide range of DAX measures were created to generate key business insights, Her
 ### **Home Page (Navigation)**
 - A user-friendly homepage providing navigation to all functional dashboards.
 <p align = "center">
-  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/P%20%26%20L%20Values.png" alt = "P & L Values" width = "600"/>
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/dashboards/HomePage.gif" alt = "Home" />
 </p>
 ### **Finance Dashboard**
 - Overview of revenue, expenses, and profitability.
