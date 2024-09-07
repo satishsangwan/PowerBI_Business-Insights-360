@@ -160,7 +160,11 @@ A wide range of DAX measures were created to generate key business insights:
 - **Sales**: Sales volume, average order value, growth percentages.
 - **Marketing**: Campaign performance, conversion rates.
 - **Supply Chain**: Inventory turnover, delivery time analysis.
-
+Here are some snippets of DAX Measures:
+<p align="center">
+  <img src="image1_url" alt="Image 1" width="400"/>
+  <img src="image2_url" alt="Image 2" width="400"/>
+</p>
 **Media**:  
 Include snippets of key DAX code along with a brief explanation of their purpose.
 
