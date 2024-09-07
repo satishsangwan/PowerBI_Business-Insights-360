@@ -148,14 +148,11 @@ Include screenshots of:
 
 ## **Data Modeling**
 The data modeling process involved creating relationships between multiple tables for efficient analysis. Key features:
-- Star schema design.
+- Snowflake schema design.
 - Fact tables for sales, finance, and supply chain.
-- Dimension tables for time, customers, and products.
+- Dimension tables for time, customers, products, and market.
 
-**Media**:  
-Include images of:
-- The relationship diagram in Power BI.
-- Table schemas and the model overview.
+
 
 ## **DAX Measures**
 A wide range of DAX measures were created to generate key business insights:
