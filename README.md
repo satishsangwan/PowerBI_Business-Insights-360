@@ -152,7 +152,7 @@ The data modeling process involved creating relationships between multiple table
 - Fact tables for sales, finance, and supply chain.
 - Dimension tables for time, customers, products, and market.
 
-
+![Data_Model](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Data%20Model%20Screenshot.png)
 
 ## **DAX Measures**
 A wide range of DAX measures were created to generate key business insights:
