@@ -151,16 +151,13 @@ The data modeling process involved creating relationships between multiple table
 - Snowflake schema design.
 - Fact tables for sales, finance, and supply chain.
 - Dimension tables for time, customers, products, and market.
-
-![Data_Model](https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Data%20Model%20Screenshot.png)
+  
+<p align = "center">
+  <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Data%20Model%20Screenshot.png" alt = "Data Model" width = "800"/>
+</p>
 
 ## **DAX Measures**
-A wide range of DAX measures were created to generate key business insights:
-- **Finance**: Revenue, cost analysis, profit margins.
-- **Sales**: Sales volume, average order value, growth percentages.
-- **Marketing**: Campaign performance, conversion rates.
-- **Supply Chain**: Inventory turnover, delivery time analysis.
-Here are some snippets of DAX Measures:
+A wide range of DAX measures were created to generate key business insights, Here are few snippets of DAX Measures:
 <p align="center">
   <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/Forecast%20QTY.png" alt="forecast" width="400"/>
   <img src="https://github.com/satishsangwan/PowerBI_Business-Insights-360/blob/main/images/P%20%26%20L%20Final%20Value.png" alt="P & L Final Value" width="400"/>
@@ -221,11 +218,14 @@ Provide a screenshot of a holistic executive dashboard summarizing key metrics f
 Include an image of the navigation page, showing clickable buttons or links to each dashboard.
 
 ## **Technology Stack**
-- **Power BI**: For data modeling and dashboard creation.
+- **Power BI Desktop**: For data modeling and dashboard creation.
 - **SQL**: For querying the database and extracting data.
 - **Power Query**: For data transformation and cleaning.
 - **DAX**: For measures and calculated columns.
-
+- **DAX Studio**: For opimizing the report performance
+- **Power BI Service**: For sharing the report with stakeholders
+- **Project Charter File**
+- **Excel**
 ## **Media & Visualizations**
 Including visuals is crucial for engaging visitors and showcasing your work. Suggested media:
 - **Screenshots**: Include clear, high-quality images of each dashboard and process step.
